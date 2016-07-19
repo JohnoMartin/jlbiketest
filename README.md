@@ -24,7 +24,18 @@ $(function() {
    });
   
 });  
+</script>
+</head>
 
+<body>
+<script language="javascript" type="text/javascript">
+	var bikeFilters = {
+		btn: true,
+		col_0: "none",
+		col_3: "select",
+		btn_text: "  Filter  "
+	}
+	setFilterGrid("bikedata",3,bikeFilters);
 </script>
 <div class="wrapper">
 <div class="profile">
