@@ -1,18 +1,15 @@
 # jlbiketest
 
-<!DOCTYPE html>
 <html>
 <head>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-<title>HTML5, CSS3 and JavaScript demo</title>
 </head>
 <body>
 <script>
 
 $(function() {
 
-          
    var items = [];
 
    $.getJSON('https://raw.githubusercontent.com/jujhars13/jujhars13/master/bikes.json', function(data) {
@@ -39,7 +36,7 @@ $(function() {
 </script>
 <div class="wrapper">
 <div class="profile">
-     <table id= "bikedata" border="0" cellspacing="0" class="sortable">
+     <table id= "bikedata" border="1" cellspacing="0" class="sortable">
   <thead>
     <th>Image</th>        
     <th>Name</th>
@@ -57,3 +54,17 @@ $(function() {
 
 </body>
 </html>
+
+
+I have assumed that by filterable information you also require the facility to sort the data. 
+I have therefore tried to build a simple table based page fulfilling the data requirements.
+
+Things i would do if i had more time and more insight would be:
+
+Exploring why filtering was not available with the setup i have created. I have attempted to introduce multiple filtering formats. The amendments would either not change anything or completely break the table.
+
+With a more advanced build with more options and items, i would also consider entering a comparison system to the selection.
+
+Another issue that i have come across is that even in my build the thumbnails/large versions do not seem to appear within the grid and displays a broken image file. However the file format does work when looked at seperately.
+
+My final struggle was working out the refresh rule. I have tried but the page when you reload the webpage resets to the standard appearance. So my final version has had the rule removed.
