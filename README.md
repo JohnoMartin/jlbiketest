@@ -9,3 +9,26 @@
 <body>
 <script>
 
+
+
+</script>
+<div class="wrapper">
+<div class="profile">
+     <table id= "bikedata" border="0" cellspacing="0" class="sortable">
+  <thead>
+    <th>Image</th>        
+    <th>Name</th>
+            <th>Description</th>
+            
+            <th>Class</th>
+        </thead>
+      <tbody>
+
+       </tbody>
+   </table>
+
+</div>
+</div>
+
+</body>
+</html>
